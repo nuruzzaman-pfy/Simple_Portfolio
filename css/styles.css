@@ -1,0 +1,350 @@
+/* Common CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1240px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.btn_primary{
+    color: #005FAC;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 25px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: .5s;
+}
+.btn_primary:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+/* ========================================================================== */
+
+
+/* Banner Section Start */
+
+.banner_section{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 270px 0 300px;
+}
+.banner_section .banner_caption{
+    text-align: right;
+}
+.banner_section .banner_caption h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.banner_section .banner_caption p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: right;
+    margin-bottom: 32px;
+}
+
+/* Banner Section End */
+
+/* Failures Section Start */
+
+.failures_section{
+    padding: 126px 0;
+}
+.failures_section .flex_column{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.failures_section .flex_column .left_column,
+.failures_section .flex_column .right_column{
+    width: 48%;
+}
+.failures_section .flex_column .left_column img{
+    width: 100%;
+}
+.title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;  
+}
+.failures_section .pra1{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 16px;
+}
+.failures_section ul li p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    display: inline-block;
+    margin-left: 30px;
+}
+.failures_section .flex_column .right_column ul li img{
+    position: absolute; 
+}
+
+/* Failures Section End */
+
+/* Plans Section Start */
+
+.plans_section{
+    padding-bottom: 130px;
+}
+.plans_section .title{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 128, 0, 0.445);
+}
+.plans_section .plans{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+}
+.plans_section .plans .plan h3{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 0 14px;
+}
+.plans_section .plans .plan p{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Plans Section End */
+
+/* Call Section Start */
+
+.call_section{
+    margin-bottom: 100px;
+}
+.call_section .call_caption{
+    background-image: linear-gradient(to left, #005fac00, #005FAC), url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 59px 64px;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 #0000003b;
+}
+.call_section h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+
+/* Call Section End */
+
+/* Footer Section Start */
+
+.footer_section{
+    color: #fff;
+    background-color: #151414;
+    padding: 130px 0;
+}
+.footer_section .flex_column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_section .flex_column .left_column,
+.footer_section .flex_column .right_column {
+        width: 42%;
+    }
+.footer_section .flex_column .left_column h2{
+    color: #f8f8f8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer_section .flex_column .left_column p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.footer_section .flex_column .left_column .email{
+    margin-bottom: 14px;
+}
+.footer_section .flex_column .left_column .phone{
+    margin-bottom: 30px;
+}
+.footer_section .flex_column .left_column ul li{
+    display: inline-block;
+    margin-right: 16px;
+    transition: .5s;
+}
+.footer_section .flex_column .left_column ul li:hover{
+    opacity: .6;
+}
+.footer_section .flex_column .right_column h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 21px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+input[type=email]::placeholder{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+input[type=email]:focus{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+}
+input[type=submit]{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #005FAC;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 36px;
+    cursor: pointer;
+}
+
+/* Footer Section End */
+
+
+
+/* ====================== Responsive Starting ====================== */
+
+
+@media screen and (max-width: 989px){
+
+    .failures_section .flex_column,
+    .plans_section .plans,
+    .footer_section .flex_column {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .failures_section .flex_column .left_column,
+    .failures_section .flex_column .right_column,
+    .footer_section .flex_column .left_column,
+    .footer_section .flex_column .right_column {
+        width: 90%;
+    }
+    .plans_section .plans .plan h3 {
+        margin: 10px 0 6px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .banner_section{
+        padding: 170px 0 160px;
+    }
+    .failures_section,
+    .footer_section {
+        padding: 60px 0;
+    }
+    .plans_section {
+        padding-bottom: 60px;
+    }
+    .call_section {
+        margin-bottom: 60px;
+    }
+    .call_section .call_caption{
+        padding: 30px 20px 55px;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .container {
+        padding: 0 30px;
+    }
+    .banner_section .banner_caption h1{
+        font-size: 50px;
+    }
+    .banner_section .banner_caption h1 br{
+        display: none;
+    }
+    .banner_section .banner_caption p br{
+        display: none;
+    }
+    .btn_primary{
+        padding: 15px 22px;
+    }
+    .call_section h3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .failures_section .flex_column .left_column,
+    .failures_section .flex_column .right_column,
+    .footer_section .flex_column .left_column,
+    .footer_section .flex_column .right_column {
+        width: 100%;
+    }
+    input[type="email"] {
+        padding: 18px;
+    }
+    input[type="submit"] {
+        padding: 18px 34px;
+    }
+}
+
+@media screen and (max-width: 460px){
+
+    .banner_section .banner_caption h1 {
+        font-size: 39px;
+    }
+    .title, .footer_section .flex_column .left_column h2{
+        font-size: 35px;
+    }
+    .plans_section .plans .plan h3 {
+        font-size: 28px;
+        margin: 8px 0 5px;
+    }
+    .plans_section .plans .plan p {
+        font-size: 23px;
+    }
+    .call_section h3{
+        font-size: 28px;
+    }
+}
+
+/* ====================== Responsive Ended ====================== */
